@@ -15,7 +15,7 @@ def action():
     img_write = PhotoImage( file = 'Eikones\\write.gif' )
     L_img_write = Button( root, image = img_write )
     L_img_write.place(x=10,y=20)   
-    L_write = Label(root, text='Write new entry',font=('Constantia',14)).place(x=90,y=40)
+    L_write = Label(root, text='New entry',font=('Constantia',14)).place(x=90,y=40)
 
     img_edit = PhotoImage( file = 'Eikones\\edit-entry.gif' )  
     L_img_edit = Button( root, image = img_edit )
