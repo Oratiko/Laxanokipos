@@ -1,7 +1,7 @@
 # # # # # # # # # # # # #
 # Coder: KP
 # Hμερ: 28/07/2020
-# Last Update: 30/07/2020
+# Last Update: 15/08/2020
 # # # # # # # # # # # # #
 
 import hashlib
@@ -11,7 +11,7 @@ import time
 
 root = Tk()
 root.title('Login')
-root.geometry('370x160+500+250')   # to + einai pou na anixi stin othoni(x,y)
+root.geometry('370x160+500+250')   # the + is for where the window will open in the screen(x,y)
 
 Luser = Label(root, text='Username', font=('Constantia',12)).place(x=50,y=40)
 Lpasswd = Label(root, text='Password', font=('Constantia',12)).place(x=50,y=60)
